@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Key Locker"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity
+            android:name=".view_page_for_card"
+            android:exported="false" />
+        <activity
+            android:name=".view_page_for_note"
+            android:exported="false" />
+        <activity
+            android:name=".view_page_for_document"
+            android:exported="false" />
+        <activity
+            android:name=".view_page_for_passwordd"
+            android:exported="false" />
+        <activity
+            android:name=".AddCards"
+            android:exported="false" />
+        <activity
+            android:name=".AddDocuments"
+            android:exported="false" />
+        <activity
+            android:name=".AddNotes"
+            android:exported="false" />
+        <activity
+            android:name=".Password"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Notes"
+            android:exported="false" />
+        <activity
+            android:name=".Cards"
+            android:exported="false" />
+        <activity
+            android:name=".AddPassword"
+            android:exported="false"
+            tools:ignore="MissingClass" />
+        <activity
+            android:name=".Documents"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPassword"
+            android:exported="true" />
+        <activity
+            android:name=".SignUp"
+            android:exported="true" />
+        <activity
+            android:name=".DashBoard"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
